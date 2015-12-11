@@ -1,0 +1,44 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : "airbnb",
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NW__" : false
+  },
+  "rules": {
+    "comma-dangle" : [1, "never"],
+    "camelcase"    : 0,
+    "func-names"   : 0,
+    "key-spacing"  : 0,
+    "space-before-function-paren" : 0,
+    "array-bracket-spacing": 0,
+    "space-in-parens": 0,
+    "no-else-return"   : 0,
+    "no-multi-spaces"  : 0,
+    "quotes"           : [2, "single"],
+    "jsx-quotes"       : [2, "prefer-single"],
+    "one-var"          : 0,
+    "complexity"       : [2, 6],
+    "max-depth"        : [2, 3],
+    "max-statements"   : [2, 15],
+    "max-params"       : [2, 3],
+    "max-len"          : [2, 150],
+    "react/sort-comp"  : [2, {
+      "order": [
+        "/^displayName$/",
+        "/^styleguide$/",
+        "lifecycle",
+        "/^on.+$/",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "everything-else",
+        "/^render.+$/",
+        "render"
+      ]
+    }]
+  }
+}

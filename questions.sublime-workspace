@@ -1,0 +1,1582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Image",
+				"Image_Picker_VM"
+			],
+			[
+				"compo",
+				"composition〔variable〕"
+			],
+			[
+				"webpack",
+				"webpackManifest〔variable〕"
+			],
+			[
+				"we",
+				"webpackConfig"
+			],
+			[
+				"child",
+				"child_path"
+			],
+			[
+				"lorem",
+				"loremIpsumWordBank"
+			],
+			[
+				"Li",
+				"List_Composite_Images"
+			],
+			[
+				"from",
+				"Ⱶ○ from_step"
+			],
+			[
+				"repeat_st",
+				"repeat_steps"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"rb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"col-o",
+				"col-xs-offset-2	 bootstrap.css"
+			],
+			[
+				"col-xs-1",
+				"col-xs-10	 bootstrap.css"
+			],
+			[
+				"actoin",
+				"action_padding	 element.less"
+			],
+			[
+				"reci",
+				"recipe_elements"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"curren",
+				"current_edit"
+			],
+			[
+				"center",
+				"center-block	 bootstrap.css"
+			],
+			[
+				"cen",
+				"center-block	 bootstrap.css"
+			],
+			[
+				"del",
+				"delete_me"
+			],
+			[
+				"if",
+				"ifel	If Else"
+			],
+			[
+				"for",
+				"forin	Array Comprehension"
+			],
+			[
+				"add",
+				"add_models"
+			],
+			[
+				"au",
+				"author"
+			],
+			[
+				"imag",
+				"images_ref"
+			],
+			[
+				"_",
+				"_Upload_Done"
+			],
+			[
+				"FI",
+				"FIREBASE_RE"
+			],
+			[
+				"fol",
+				"folder_name"
+			],
+			[
+				"combo",
+				"combo_name_id"
+			],
+			[
+				"material",
+				"material_picker"
+			],
+			[
+				"recipe",
+				"recipe_input"
+			],
+			[
+				"all",
+				"all_steps"
+			],
+			[
+				"ingre",
+				"ingredent_picker"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"repeat",
+				"repeaters"
+			],
+			[
+				"Repe",
+				"Repeat_VM"
+			],
+			[
+				"repe",
+				"repeaters"
+			],
+			[
+				"prev",
+				"prev_step_vm"
+			],
+			[
+				"get_recipe",
+				"get_recipe_sources"
+			],
+			[
+				"ha",
+				"valueHasMutated"
+			],
+			[
+				"Split",
+				"Split_Picker"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"Ingre",
+				"Ingredient_VM"
+			],
+			[
+				"Action",
+				"ActionDetail"
+			],
+			[
+				"preo",
+				"preposition_sub"
+			],
+			[
+				"selecte",
+				"selected_id"
+			],
+			[
+				"prepo",
+				"preposition_sub"
+			],
+			[
+				"prep",
+				"preposition_sub"
+			],
+			[
+				"qu",
+				"quanity_bottom"
+			],
+			[
+				"sour",
+				"source_extra_reference"
+			],
+			[
+				"recipe_",
+				"recipe_source"
+			],
+			[
+				"sourc",
+				"source_database"
+			],
+			[
+				"data",
+				"○ source_database"
+			],
+			[
+				"sending",
+				"sending_data"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"margin",
+				"margin-bottom:   (property)"
+			],
+			[
+				"Recipe",
+				"Recipe_Source_VM"
+			],
+			[
+				"Click",
+				"Click_Clear"
+			],
+			[
+				"time",
+				"time_sub"
+			],
+			[
+				"getTim",
+				"getTimeObject  (function)"
+			],
+			[
+				"log",
+				"log_hash  (function)"
+			],
+			[
+				"p",
+				"previous_step_ids  (variable)"
+			],
+			[
+				"sendin",
+				"sending_timeout"
+			],
+			[
+				"result",
+				"resultant_name"
+			],
+			[
+				"action",
+				"action_detail"
+			],
+			[
+				"comb",
+				"combo_name"
+			],
+			[
+				"resu",
+				"resultant_name_id"
+			],
+			[
+				"combin",
+				"combination_names"
+			],
+			[
+				"_Pre",
+				"_Prepare_For_Resultants"
+			],
+			[
+				"spli",
+				"making_splits"
+			],
+			[
+				"from_step",
+				"from_step_txt"
+			],
+			[
+				"en",
+				"enable_profiler"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "questions.sublime-project",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"coffee",
+				"Coffee: Compile File"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"LOW",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"grun",
+				"Grunt"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"Coffee: Lint"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"auto",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"case",
+				"Convert Case: separate␣words"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"aut",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"x",
+				"Xdebug: Set Conditional Breakpoint"
+			],
+			[
+				"xd",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"fold",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"clo",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"gist o",
+				"Gist: Open Gist"
+			],
+			[
+				"gist",
+				"Gist: Add File to Gist"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"high",
+				"BracketHighlighter: Toggle Global Enable"
+			],
+			[
+				"got",
+				"Coffee: Goto Definition"
+			],
+			[
+				"",
+				"BracketHighlighter: Jump to Right Bracket"
+			],
+			[
+				"clos",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"pack lis",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"java",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"coffe",
+				"Coffee: Goto Definition"
+			],
+			[
+				"algin",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"aligg",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/code/questions",
+		"/C/code/questions/src",
+		"/C/code/questions/src/actions",
+		"/C/code/questions/src/constants",
+		"/C/code/questions/src/data",
+		"/C/code/questions/src/layouts",
+		"/C/code/questions/src/reducers",
+		"/C/code/questions/src/views"
+	],
+	"file_history":
+	[
+		"/C/code/questions/src/actions/questions.js",
+		"/C/code/questions/src/reducers/counter.js",
+		"/C/code/questions/src/app.js",
+		"/C/code/questions/src/containers/Root.js",
+		"/C/code/questions/src/views/HomeView.js",
+		"/C/code/questions/styleguide.config.js",
+		"/C/code/questions/package.json",
+		"/C/code/questions/react_redux_starter_kit.md",
+		"/C/code/questions/README.md",
+		"/C/code/questions/src/data/questions.coffee",
+		"/C/code/questions/src/constants/counter.js",
+		"/C/code/questions/src/actions/counter.js",
+		"/C/code/questions/questions.sublime-project",
+		"/C/code/questions/data",
+		"/C/code/questions/LICENSE",
+		"/C/code/acd-hyena/webapp_react/.gitignore",
+		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/code/acd-hyena/webapp_react/src/constants/counter.js",
+		"/C/code/acd-hyena/webapp_react/webapp_react.sublime-project",
+		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/code/react_experiments/react_redux/README.md",
+		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/code/react_experiments/react_redux/src/app.js",
+		"/C/code/react_experiments/react_redux/src/containers/Root.js",
+		"/C/code/react_experiments/react_redux/src/containers/DevTools.js",
+		"/C/code/react_experiments/react_redux/package.json",
+		"/C/code/react_experiments/react_redux/webpack.config.js",
+		"/C/code/react_experiments/diff_monitor/node_modules/redux-devtools-diff-monitor/examples/todomvc/index.js",
+		"/C/code/react_experiments/diff_monitor/node_modules/redux-devtools-diff-monitor/examples/todomvc/containers/App.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/shell.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/step_view.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-message/step-message.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-message/step-message.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/pickers.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element/element.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/done-block/done-block.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/text-entry/text-entry.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/understood-block/understood-block.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/bodies/body_ingredient.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/browser/browser.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/make_picker_component.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/text-entry/text-entry.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/browser/browser.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/bodies/body_images.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/understood-block/understood-block.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/done-block/done-block.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/picker_base.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/parts/type_and_browse.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/picker_image.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/parts/body_new_item.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_edit/recipe_edit.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/text-entry/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/parts/body_many_amounts.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/browser/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-view/step-view.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_edit/recipe_edit.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/step_edit.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/helpers/template_only_component.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/picker_ingredient.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/Gruntfile.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/understood-block/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/pickers/picker_image.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_viewer/recipe_viewer.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_viewer/recipe_viewer.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-edit-actions/step-edit-actions.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-message/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/info/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/info/info.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/info/info.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-view/step-view.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-edit-actions/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/step-edit-actions/step-edit-actions.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/step_edit_actions.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/step-edit-actions/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/picker/done-block/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_edit/package.json",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/image_upload/image_upload.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/helpers/data_url_to_blob.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/image_upload/image_upload.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_page.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element/element.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/main_picker.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/routes.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_images.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/browser.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_action.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/text_entry.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_coaction.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_material.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_modifier.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_multi_amounts.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/parts/done_block.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/mixins/view_for_webpack.coffee",
+		"/C/Dropbox/TedChef_dev/website/html/bower.json",
+		"/C/Dropbox/TedChef_dev/webapp/webpack.dev.config.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/splash/splash.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/parts/understood_block.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_split.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_page.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_preposition.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_repeat_count.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_repeater.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_resultant.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_temperature.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_time.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/logic/recipe_list_calcs.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/ingredients.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/images.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_config.json.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/node_modules/durandal/js/viewLocator.js",
+		"/C/Dropbox/TedChef_dev/webapp/node_modules/durandal/js/viewEngine.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/overrides/composition.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/overrides/views.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/material_vm.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/timer_bar/timer_bar.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_associations.html",
+		"/C/Dropbox/TedChef_dev/webapp/node_modules/durandal/js/composition.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_associations.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/actions.html",
+		"/C/Dropbox/TedChef_dev/webapp/app/overrides/system.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/login/login.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element_list/element_list.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/action_detail_vm.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/node_modules/nosleep.js/NoSleep.js",
+		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/recipe_as_ingredient_vm.coffee",
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_list/recipe_list.coffee"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.html,*.coffee, *.js, *.jsx",
+			"*.html,*.coffee",
+			"*.js",
+			"*.*",
+			"*.html, *.coffee, *.js",
+			"*.html, *.coffee",
+			"*.html",
+			"*.coffee,*.html",
+			"*.coffee",
+			"*.*",
+			"*.html",
+			"*.less",
+			"*.*",
+			"*.coffee",
+			"*.*",
+			"*.coffee",
+			"*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"react-helmet",
+			"title",
+			"body.",
+			"text-entry",
+			"@",
+			"li",
+			"understood",
+			"Understood_Block",
+			"understood-block",
+			"text-entry",
+			"Text_Entry",
+			"Click_Next",
+			"Text_Entry",
+			"model",
+			"picker-done-block",
+			"text-entry",
+			"understood-block",
+			"step-edit-actions",
+			"info",
+			"step-edit-actions",
+			"step-view",
+			"understood-block",
+			"-",
+			"done-block",
+			"understood-block",
+			"HTMLLINK",
+			"$parent",
+			"pickers",
+			"done-block",
+			"done",
+			"done-block",
+			"recipe/pickers/parts/done_block",
+			"getSettings",
+			"excute",
+			"excuite",
+			"show",
+			"display",
+			"$parent",
+			"[1]",
+			"$parent",
+			"params",
+			"fb_tools",
+			"recipe_parts",
+			"require 'knockout_firebase'",
+			"knockout_firebase",
+			"$",
+			"knockout_firebase_users",
+			"moduleId",
+			"web_assets",
+			"For_Webpack",
+			"convertTransitionToModuleId",
+			"transition",
+			"ko\ntransition",
+			"ko",
+			"transition",
+			"transitions",
+			"login",
+			"'knockout_firebase",
+			"knockout_firebase",
+			"firebase",
+			"knockout_firebase",
+			"_",
+			"'\n",
+			"html",
+			"ux_app",
+			"dist",
+			"publicPath",
+			"dev",
+			"durandal-webpack",
+			"70b7a921820b4c7287b4",
+			"dist",
+			"fs",
+			"url",
+			"'plugins/router'",
+			"plugins",
+			"map",
+			"dist",
+			"js/",
+			"js",
+			"app",
+			"dist",
+			"durandal-webpack/dev/",
+			"dist",
+			"require",
+			"(",
+			"./",
+			"\"/",
+			"../",
+			": \"",
+			"masonry",
+			"fire_ref,",
+			"from_step_txt",
+			"top",
+			"33.3%",
+			"image_url",
+			"src=\"http://lorempixel.com/100/100/food\" ",
+			"DB",
+			"image",
+			"@Acessor",
+			"ko",
+			"ted_tools",
+			"utils.unwrapObservable",
+			"utils.unwrapObservable\n",
+			"unwrap",
+			"image",
+			"element",
+			"model: $data",
+			"e",
+			"color_highlight_second",
+			"part",
+			"row",
+			"image_src",
+			"URL_BASE",
+			"image",
+			"template: { name: 'recipe/element', ",
+			"image_src",
+			"image",
+			"recipe_action",
+			"action_padding",
+			"width + action_padding",
+			"@padding",
+			"padding",
+			"45px",
+			"green",
+			"@",
+			"22px",
+			"border",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"code/recipe/parts",
+			"require 'knockout-firebase'",
+			"assets",
+			"unwrap",
+			"preposition",
+			"updating_model",
+			"Update"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "questions.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.xdebug":
+	{
+		"height": 100.0
+	},
+	"output.xdebug_inspect":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"project": "questions.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bodym",
+				"app\\code\\recipe\\pickers\\parts\\body_many_amounts.coffee"
+			],
+			[
+				"grunt",
+				"Gruntfile.coffee"
+			],
+			[
+				"body_new",
+				"app\\code\\recipe\\pickers\\parts\\body_new_item.coffee"
+			],
+			[
+				"recipeed",
+				"app\\pages\\recipe_edit\\recipe_edit.html"
+			],
+			[
+				"recipev",
+				"app\\pages\\recipe_viewer\\recipe_viewer.html"
+			],
+			[
+				"step_ed",
+				"app\\views\\recipe\\step_edit_actions.html"
+			],
+			[
+				"recipe_vi",
+				"app\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			],
+			[
+				"recipe_e",
+				"app\\pages\\recipe_edit\\recipe_edit.coffee"
+			],
+			[
+				"shel",
+				"app\\pages\\shell.coffee"
+			],
+			[
+				"rou",
+				"app\\routes.js"
+			],
+			[
+				"picker_",
+				"app\\code\\recipe\\pickers\\picker_base.coffee"
+			],
+			[
+				"type_",
+				"app\\code\\recipe\\pickers\\parts\\type_and_browse.coffee"
+			],
+			[
+				"picker_ba",
+				"app\\code\\recipe\\pickers\\picker_base.coffee"
+			],
+			[
+				"image",
+				"app\\code\\recipe\\pickers\\picker_image.coffee"
+			],
+			[
+				"step",
+				"app\\modules\\recipe\\step-view\\step-view.coffee"
+			],
+			[
+				"step-v",
+				"app\\modules\\recipe\\step-view\\step-view.html"
+			],
+			[
+				"body_im",
+				"app\\views\\recipe\\pickers\\body_images.html"
+			],
+			[
+				"type",
+				"app\\code\\recipe\\pickers\\parts\\type_and_browse.coffee"
+			],
+			[
+				"main",
+				"app\\views\\recipe\\pickers\\main_picker.html"
+			],
+			[
+				"picker_im",
+				"app\\code\\recipe\\pickers\\picker_image.coffee"
+			],
+			[
+				"add_",
+				"app\\pages\\admin\\add\\add_page.html"
+			],
+			[
+				"add_ass",
+				"app\\pages\\admin\\add\\add_associations.html"
+			],
+			[
+				"comp",
+				"app\\overrides\\composition.js"
+			],
+			[
+				"add_p",
+				"app\\pages\\admin\\add\\add_page.html"
+			],
+			[
+				"materi",
+				"app\\code\\recipe\\parts\\material_vm.coffee"
+			],
+			[
+				"step_v",
+				"app\\code\\recipe\\parts\\step_view.coffee"
+			],
+			[
+				"recipe_v",
+				"app\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			],
+			[
+				"action_",
+				"app\\code\\recipe\\parts\\action_detail_vm.coffee"
+			],
+			[
+				"nos",
+				"node_modules\\nosleep.js\\NoSleep.js"
+			],
+			[
+				"basic_el",
+				"app\\code\\recipe\\parts\\basic_element_vm.coffee"
+			],
+			[
+				"model_",
+				"app\\code\\recipe\\models\\model_base.coffee"
+			],
+			[
+				"recipe_as",
+				"app\\code\\recipe\\parts\\recipe_as_ingredient_vm.coffee"
+			],
+			[
+				"repeat_vm",
+				"app\\code\\recipe\\parts\\repeat_vm.coffee"
+			],
+			[
+				"action_de",
+				"app\\code\\recipe\\parts\\action_detail_vm.coffee"
+			],
+			[
+				"ingre",
+				"app\\code\\recipe\\parts\\ingredient_vm.coffee"
+			],
+			[
+				"timer_mod",
+				"app\\modules\\recipe\\timer_bar\\timer_model.coffee"
+			],
+			[
+				"amount",
+				"app\\code\\recipe\\models\\amount_unit.coffee"
+			],
+			[
+				"recipe_vie",
+				"app\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			],
+			[
+				"recip",
+				"app\\pages\\recipe_list\\recipe_list.html"
+			],
+			[
+				"recipe_",
+				"app\\pages\\recipe_list\\recipe_list.coffee"
+			],
+			[
+				"recipe_li",
+				"app\\pages\\recipe_list\\recipe_list.coffee"
+			],
+			[
+				"meal",
+				"app\\modules\\meal_maker\\meal_maker.html"
+			],
+			[
+				"main_p",
+				"app\\views\\recipe\\pickers\\main_picker.html"
+			],
+			[
+				"picker_re",
+				"app\\code\\recipe\\pickers\\picker_recipe.coffee"
+			],
+			[
+				"index",
+				"app\\index.template.html"
+			],
+			[
+				"picker_bas",
+				"app\\code\\recipe\\pickers\\picker_base.coffee"
+			],
+			[
+				"menu_plan",
+				"app\\pages\\menu\\menu_plan_maker.html"
+			],
+			[
+				"element",
+				"app\\modules\\recipe\\element\\element.html"
+			],
+			[
+				"ver",
+				"app\\pages\\about\\verse.coffee"
+			],
+			[
+				"menu_plan_view",
+				"app\\pages\\menu\\menu_plan_view.coffee"
+			],
+			[
+				"system",
+				"node_modules\\durandal\\js\\system.js"
+			],
+			[
+				"system.",
+				"app\\overrides\\system.js"
+			],
+			[
+				"add_pa",
+				"app\\pages\\admin\\add\\add_page.coffee"
+			],
+			[
+				"menu_plans_li",
+				"app\\pages\\menu\\menu_plans_list.coffee"
+			],
+			[
+				"admin_",
+				"app\\pages\\admin_list\\admin_list.html"
+			],
+			[
+				"image_list",
+				"app\\pages\\admin\\image_list\\image_list.coffee"
+			],
+			[
+				"user_admi",
+				"app\\pages\\user\\admin\\user_admin.html"
+			],
+			[
+				"user_a",
+				"app\\pages\\user\\admin\\user_admin.coffee"
+			],
+			[
+				"user_ad",
+				"app\\pages\\user\\admin\\user_admin.coffee"
+			],
+			[
+				"user_pro",
+				"app\\pages\\user\\profile\\user_profile.html"
+			],
+			[
+				"user",
+				"app\\pages\\user\\profile\\user_profile.coffee"
+			],
+			[
+				"for",
+				"app\\pages\\user\\forgot\\forgot.html"
+			],
+			[
+				"forgot",
+				"app\\pages\\user\\forgot\\forgot.coffee"
+			],
+			[
+				"vers",
+				"public\\version.html"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"view",
+				"app\\mixins\\view_for_webpack.coffee"
+			],
+			[
+				"about",
+				"app\\viewModels\\about\\about.js"
+			],
+			[
+				"view_fo",
+				"app\\mixins\\view_for_webpack.coffee"
+			],
+			[
+				"spl",
+				"app\\pages\\splash\\splash.html"
+			],
+			[
+				"spla",
+				"app\\pages\\splash\\splash.coffee"
+			],
+			[
+				"entr",
+				"bower_components\\durandal\\js\\transitions\\entrance.js"
+			],
+			[
+				"app_head",
+				"app\\modules\\app_header\\app_header.coffee"
+			],
+			[
+				"splash.h",
+				"app\\pages\\splash\\splash.html"
+			],
+			[
+				"app_db",
+				"app\\code\\services\\app_db.coffee"
+			],
+			[
+				"webpa",
+				"webpack.config.js"
+			],
+			[
+				"dialogs",
+				"app\\viewModels\\dialogs\\dialogs.js"
+			],
+			[
+				"requir",
+				"html\\dev\\code\\require_config.coffee"
+			],
+			[
+				"recipecalc",
+				"html\\dev\\modules\\recipe\\logic\\recipe_list_calcs.coffee"
+			],
+			[
+				"resul",
+				"html\\dev\\code\\recipe\\parts\\resultant_vm.coffee"
+			],
+			[
+				"repeat",
+				"html\\dev\\code\\recipe\\parts\\repeat_vm.coffee"
+			],
+			[
+				"elem",
+				"html\\dev\\modules\\recipe\\element\\element.coffee"
+			],
+			[
+				"result",
+				"html\\dev\\code\\recipe\\pickers\\picker_resultant.coffee"
+			],
+			[
+				"step_vie",
+				"html\\dev\\code\\recipe\\parts\\step_view.coffee"
+			],
+			[
+				"step_e",
+				"html\\dev\\code\\recipe\\parts\\step_edit.coffee"
+			],
+			[
+				"split",
+				"html\\dev\\code\\recipe\\parts\\split_vm.coffee"
+			],
+			[
+				"body_split",
+				"html\\dev\\views\\recipe\\pickers\\body_split.html"
+			],
+			[
+				"body_",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_splits.coffee"
+			],
+			[
+				"ui",
+				"html\\dev\\pages\\ui_components\\ui_components.coffee"
+			],
+			[
+				"spli",
+				"html\\dev\\code\\recipe\\parts\\split_vm.coffee"
+			],
+			[
+				"previ",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_previous_items.coffee"
+			],
+			[
+				"recipe_list_c",
+				"html\\dev\\modules\\recipe\\logic\\recipe_list_calcs.js"
+			],
+			[
+				"recipe_lis",
+				"html\\dev\\modules\\recipe\\logic\\recipe_list_calcs.coffee"
+			],
+			[
+				"step_edi",
+				"html\\dev\\code\\recipe\\parts\\step_edit.coffee"
+			],
+			[
+				"step_vi",
+				"html\\dev\\code\\recipe\\parts\\step_view.coffee"
+			],
+			[
+				"action",
+				"html\\dev\\code\\recipe\\parts\\action_detail_vm.coffee"
+			],
+			[
+				"basic",
+				"html\\dev\\code\\recipe\\parts\\basic_element_vm.coffee"
+			],
+			[
+				"grun",
+				"html\\Gruntfile.coffee"
+			],
+			[
+				"config",
+				"html\\dev\\code\\require_config.coffee"
+			],
+			[
+				"previous",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_previous_items.coffee"
+			],
+			[
+				"filter",
+				"html\\dev\\code\\helpers\\ko_filters.coffee"
+			],
+			[
+				"mate",
+				"html\\dev\\code\\recipe\\parts\\material_vm.js"
+			],
+			[
+				"body_pre",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_previous_items.coffee"
+			],
+			[
+				"body_pr",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_previous_materials.coffee"
+			],
+			[
+				"recipe_view",
+				"html\\dev\\styles\\recipe\\recipe_view.less"
+			],
+			[
+				"body_spl",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_splits.coffee"
+			],
+			[
+				"tedto",
+				"html\\dev\\code\\helpers\\tedchef_tools.coffee"
+			],
+			[
+				"ted_too",
+				"html\\dev\\code\\helpers\\tedchef_tools.coffee"
+			],
+			[
+				"recipe_ve",
+				"html\\dev\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			],
+			[
+				"repeat_",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_repeat_count.coffee"
+			],
+			[
+				"picker_new",
+				"html\\dev\\views\\recipe\\pickers\\picker_new_items.html"
+			],
+			[
+				"picker_in",
+				"html\\dev\\code\\recipe\\pickers\\picker_ingredient.coffee"
+			],
+			[
+				"body_previ",
+				"html\\dev\\code\\recipe\\pickers\\parts\\body_previous_items.coffee"
+			],
+			[
+				"ele",
+				"html\\dev\\views\\recipe\\element.html"
+			],
+			[
+				"recipe",
+				"html\\dev\\pages\\recipe_edit\\recipe_edit.coffee"
+			],
+			[
+				"varia",
+				"html\\dev\\styles\\variables.less"
+			],
+			[
+				"require",
+				"html\\dev\\code\\require_config.coffee"
+			],
+			[
+				"coaction",
+				"html\\dev\\code\\recipe\\parts\\coaction_vm.coffee"
+			],
+			[
+				"co_action",
+				"html\\dev\\code\\recipe\\pickers\\picker_action.coffee"
+			],
+			[
+				"rec",
+				"html\\dev\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			],
+			[
+				"reicp",
+				"html\\dev\\pages\\recipe_edit\\recipe_edit.coffee"
+			],
+			[
+				"mason",
+				"html\\bower_components\\masonry\\dist\\masonry.pkgd.js"
+			],
+			[
+				"ui_com",
+				"html\\dev\\pages\\ui_components\\ui_components.js"
+			],
+			[
+				"requ",
+				"html\\dev\\code\\require_config.coffee"
+			],
+			[
+				"confi",
+				"html\\dev\\code\\require_config.coffee"
+			],
+			[
+				"",
+				"html\\dev\\modules\\recipe\\element\\element.less"
+			],
+			[
+				"tools",
+				"html\\dev\\code\\helpers\\tedchef_tools.coffee"
+			],
+			[
+				"ui_co",
+				"html\\dev\\pages\\ui_components\\ui_components.html"
+			],
+			[
+				"recipeview",
+				"html\\dev\\pages\\recipe_viewer\\recipe_viewer.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Dropbox\\TedChef_dev\\webapp\\tedchef nxg webapp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
