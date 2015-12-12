@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"des",
+				"desired_result"
+			],
+			[
+				"QUES",
+				"QUESTION_ANSWERED"
+			],
+			[
 				"Image",
 				"Image_Picker_VM"
 			],
@@ -304,10 +312,74 @@
 	"buffers":
 	[
 		{
-			"file": "questions.sublime-project",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 119,
+				"buffer_size": 2826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/utils/package.json",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/actions/questions.spec.js",
+			"settings":
+			{
+				"buffer_size": 502,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/reducers/questions.js",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/actions/questions.js",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/reducers/chart.js",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/actions/counter.js",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/data/questions.coffee",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/utils/utils.js",
+			"settings":
+			{
+				"buffer_size": 1388,
 				"line_ending": "Unix"
 			}
 		}
@@ -320,9 +392,17 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "inst",
+		"last_filter": "up",
 		"selected_items":
 		[
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -601,10 +681,18 @@
 		"/C/code/questions/src/data",
 		"/C/code/questions/src/layouts",
 		"/C/code/questions/src/reducers",
-		"/C/code/questions/src/views"
+		"/C/code/questions/src/utils",
+		"/C/code/questions/src/views",
+		"/C/code/questions/tests/actions"
 	],
 	"file_history":
 	[
+		"/C/code/questions/tests/actions/counter.spec.js",
+		"/C/code/questions/src/constants/constants.js",
+		"/C/code/questions/src/utils/index.js",
+		"/C/code/questions/src/utils/package.json",
+		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/code/questions/questions.sublime-project",
 		"/C/code/questions/src/actions/questions.js",
 		"/C/code/questions/src/reducers/counter.js",
 		"/C/code/questions/src/app.js",
@@ -617,11 +705,9 @@
 		"/C/code/questions/src/data/questions.coffee",
 		"/C/code/questions/src/constants/counter.js",
 		"/C/code/questions/src/actions/counter.js",
-		"/C/code/questions/questions.sublime-project",
 		"/C/code/questions/data",
 		"/C/code/questions/LICENSE",
 		"/C/code/acd-hyena/webapp_react/.gitignore",
-		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/code/acd-hyena/webapp_react/src/constants/counter.js",
 		"/C/code/acd-hyena/webapp_react/webapp_react.sublime-project",
 		"/C/Users/Humphrey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -728,11 +814,7 @@
 		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/actions.html",
 		"/C/Dropbox/TedChef_dev/webapp/app/overrides/system.js",
 		"/C/Dropbox/TedChef_dev/webapp/app/modules/login/login.coffee",
-		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element_list/element_list.coffee",
-		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/action_detail_vm.coffee",
-		"/C/Dropbox/TedChef_dev/webapp/node_modules/nosleep.js/NoSleep.js",
-		"/C/Dropbox/TedChef_dev/webapp/app/code/recipe/parts/recipe_as_ingredient_vm.coffee",
-		"/C/Dropbox/TedChef_dev/webapp/app/pages/recipe_list/recipe_list.coffee"
+		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/element_list/element_list.coffee"
 	],
 	"find":
 	{
@@ -767,6 +849,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\"",
 			"react-helmet",
 			"title",
 			"body.",
@@ -893,8 +976,7 @@
 			"green",
 			"@",
 			"22px",
-			"border",
-			"button"
+			"border"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -919,24 +1001,66 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "questions.sublime-project",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 2826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/utils/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
 							]
 						],
 						"settings":
@@ -961,6 +1085,294 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/actions/questions.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "src/reducers/questions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/actions/questions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								240
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/reducers/chart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/actions/counter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/data/questions.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/utils/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
 				}
 			]
 		}
@@ -982,11 +1394,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1029,6 +1448,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ut",
+				"src\\utils\\utils.js"
+			],
 			[
 				"bodym",
 				"app\\code\\recipe\\pickers\\parts\\body_many_amounts.coffee"
@@ -1536,10 +1959,6 @@
 			[
 				"ui_co",
 				"html\\dev\\pages\\ui_components\\ui_components.html"
-			],
-			[
-				"recipeview",
-				"html\\dev\\pages\\recipe_viewer\\recipe_viewer.coffee"
 			]
 		],
 		"width": 0.0

@@ -5,7 +5,7 @@ import routes                   from '../routes';
 import DevTools                 from './DevTools';
 import { createDevToolsWindow } from '../utils';
 import Helmet                   from 'react-helmet';
-import icon_url                 from 'assets/adec_image.png';
+// import icon_url                 from 'assets/adec_image.png';
 
 export default class Root extends React.Component {
   static propTypes = {
@@ -35,9 +35,9 @@ export default class Root extends React.Component {
         <div>
           <Helmet
             title='A React Base'
-            link={[
-              { 'rel':'icon', 'type':'image/png', 'href':icon_url }
-            ]}
+            // link={[
+            //   { 'rel':'icon', 'type':'image/png', 'href':icon_url }
+            // ]}
           />
           <Router history={this.props.history}>
             {routes}

@@ -1,5 +1,5 @@
 {
-  "name": "Question Asker",
+  "name": "QuestionAsker",
   "version": "0.1.0",
   "description": "An webpage to ask a user question to determine classification",
   "main": "index.js",
@@ -57,6 +57,7 @@
     "karma": "^0.13.8",
     "karma-chai": "^0.1.0",
     "karma-chai-as-promised": "^0.1.2",
+    "karma-chrome-launcher": "^0.2.2",
     "karma-coverage": "^0.5.0",
     "karma-mocha": "^0.2.0",
     "karma-phantomjs-launcher": "^0.2.1",
