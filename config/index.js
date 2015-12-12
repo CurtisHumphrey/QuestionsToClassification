@@ -106,6 +106,7 @@ config.set('utils_aliases', [
   'components',
   'constants',
   'containers',
+  'data',
   'layouts',
   'reducers',
   'routes',

@@ -18,7 +18,7 @@ function shallowRenderWithProps (props = {}) {
   return shallowRender(<HomeView {...props} />);
 }
 
-describe('(View) Home', function () {
+xdescribe('(View) Home', function () {
   let _component, _rendered, _props, _spies;
   let sandbox;
 

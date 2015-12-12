@@ -1,9 +1,7 @@
 import React                  from 'react';
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
-import counterActions         from 'actions/counter';
 import { Link }               from 'react-router';
-import ChartjsPolarArea       from 'components/ChartjsPolarArea';
 
 // We define mapStateToProps and mapDispatchToProps where we'd normally use
 // the @connect decorator so the data requirements are clear upfront, but then
@@ -71,9 +69,7 @@ export class HomeView extends React.Component {
           Add To Chart
         </button>
         <hr />
-        <ChartjsPolarArea data={this.get_Chart_Data()} />
         <hr />
-        <Link to='/about'>Go To About View</Link>
       </div>
     );
   }
