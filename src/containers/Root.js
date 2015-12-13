@@ -34,7 +34,7 @@ export default class Root extends React.Component {
       <Provider store={this.props.store}>
         <div>
           <Helmet
-            title='A React Base'
+            title='Question to Category'
             // link={[
             //   { 'rel':'icon', 'type':'image/png', 'href':icon_url }
             // ]}

@@ -5,10 +5,12 @@ import DATA                  from 'data/questions';
 
 import _ from 'lodash';
 
-export const INITIAL_STATE = {};
+export const INITIAL_STATE = {
+  answers: {}
+};
 // make arrays for each answer key to story the answereds questions
 _.forEach(Answer_Types, (value, key) => {
-  INITIAL_STATE[key] = [];
+  INITIAL_STATE.answers[key] = [];
 });
 // load question data for use
 Object.assign(INITIAL_STATE, DATA);
@@ -26,8 +28,8 @@ Object.assign(INITIAL_STATE, DATA);
 function add_Answers(state, action) {
   const next_state = Object.assign({}, state);
   const type = action.answer;
-  next_state[type] = [
-    ...next_state[type],
+  next_state.answers[type] = [
+    ...next_state.answers[type],
     action.topic
   ];
 

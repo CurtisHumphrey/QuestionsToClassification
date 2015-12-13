@@ -1,7 +1,7 @@
 import reducer, {INITIAL_STATE} from 'reducers/questions';
 import * as action from 'actions/questions';
 
-describe.only('reducers of questions', function() {
+describe('reducers of questions', function() {
   let desired_result;
   let topic;
   let state;
@@ -24,7 +24,7 @@ describe.only('reducers of questions', function() {
     desired_result = [topic];
 
     state = reducer(undefined, action.question_Answered(topic, EXPERT));
-    expect(state[EXPERT]).to.eql(desired_result);
+    expect(state.answers[EXPERT]).to.eql(desired_result);
   });
 
   it('should add to entries to PROFICIENT when the answers are PROFICIENT', () => {
@@ -33,7 +33,7 @@ describe.only('reducers of questions', function() {
 
     state = reducer(undefined, action.question_Answered(topic, PROFICIENT));
     state = reducer(state, action.question_Answered(topic, PROFICIENT));
-    expect(state[PROFICIENT]).to.eql(desired_result);
+    expect(state.answers[PROFICIENT]).to.eql(desired_result);
   });
 
   it('should remove the first question on the topic list', function() {
@@ -52,5 +52,4 @@ describe.only('reducers of questions', function() {
     state = reducer(undefined, action.question_Answered(topic, EXPERT));
     expect(state.topics[0]).to.eql(next_topic);
   });
-
 });
