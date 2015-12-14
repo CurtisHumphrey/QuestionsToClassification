@@ -1,37 +1,36 @@
 module.exports = 
   outcomes:
-    beginner: 
-      level: 0
-      title: "Beginner"
-      text: "You're just starting to explore this skill"
-      require: [{
-        familiar: 0
-      }]
-    familiar:
-      level: 1
-      title: "Familiar"
-      text: "You have basic knowledge of this skill, but plenty of room to learn more"
-      require: [
-        {
-          proficient: 1
-        }
-        {
-          familiar: 3
-        }
-      ]
-    proficient:
-      level: 2
-      title: "Proficient"
-      text: "You're comfortable using this skill in routine ways"
-      require: [
-        {
-          proficient: 1
-          expert: 2
-        }
-        {
-          proficient: 3
-        }
-      ]
+    levels: ['beginner', 'familiar', 'proficient', 'expert']
+    categories:
+      beginner: 
+        title: "Beginner"
+        text: "You're just starting to explore this skill"
+        require: [{
+          familiar: 0
+        }]
+      familiar:
+        title: "Familiar"
+        text: "You have basic knowledge of this skill, but plenty of room to learn more"
+        require: [
+          {
+            proficient: 1
+          }
+          {
+            familiar: 3
+          }
+        ]
+      proficient:
+        title: "Proficient"
+        text: "You're comfortable using this skill in routine ways"
+        require: [
+          {
+            proficient: 1
+            expert: 2
+          }
+          {
+            proficient: 3
+          }
+        ]
   topics: [
     {
       text: "R programming language"

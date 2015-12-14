@@ -4,6 +4,7 @@ import { connect }            from 'react-redux';
 import { question_Answered, Answer_Types }  from 'actions/questions';
 import AnsweredList           from 'components/AnsweredList';
 import QuestionAsker          from 'components/QuestionAsker';
+import CategoryResult          from 'components/CategoryResult';
 import _ from 'lodash';
 
 // We define mapStateToProps and mapDispatchToProps where we'd normally use
@@ -16,6 +17,7 @@ const mapStateToProps = (state) => ({
   // counter : state.counter,
   // chart   : state.chart,
   // routerState : state.router
+  outcomes: state.questions.outcomes,
   answers: state.questions.answers,
   topics: state.questions.topics
 });
@@ -64,6 +66,8 @@ export class HomeView extends React.Component {
             <QuestionAsker topic={this.props.topics[0]} possibleAnswers={this.state.possibleAnswers} />
           </div>
         </div>
+        <CategoryResult outcomes="this.props.outcomes" answers="this.props.answers" />
+        <hr/>
         <div className="row">
           { this.renderAnsweredList() }
         </div>

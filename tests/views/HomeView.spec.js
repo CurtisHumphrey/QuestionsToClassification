@@ -39,6 +39,7 @@ xdescribe('(View) Home', function () {
     _component = shallowRenderWithProps(_props);
     _rendered  = renderWithProps(_props);
   });
+  
   afterEach(function() {
     sandbox.restore();
   });
@@ -52,36 +53,5 @@ xdescribe('(View) Home', function () {
 
     expect(h1).to.exist;
     expect(h1.textContent).to.match(/Welcome to the React Redux Starter Kit/);
-  });
-
-  it('Should render with an <h2> that includes Sample Counter text.', function () {
-    const h2 = TestUtils.findRenderedDOMComponentWithTag(_rendered, 'h2');
-
-    expect(h2).to.exist;
-    expect(h2.textContent).to.match(/Sample Counter/);
-  });
-
-  it('Should render props.counter at the end of the sample counter <h2>.', function () {
-    const h2 = TestUtils.findRenderedDOMComponentWithTag(
-      renderWithProps({ ..._props, counter : 5 }), 'h2'
-    );
-
-    expect(h2).to.exist;
-    expect(h2.textContent).to.match(/5$/);
-  });
-
-  it('Should render an "Increment" button.', function () {
-    const btn = TestUtils.scryRenderedDOMComponentsWithTag(_rendered, 'button');
-
-    expect(btn[0]).to.exist;
-    expect(btn[0].textContent).to.match(/Increment/);
-  });
-
-  it('Should dispatch an action when "Increment" button is clicked.', function () {
-    const btn = TestUtils.scryRenderedDOMComponentsWithTag(_rendered, 'button');
-
-    _spies.dispatch.should.have.not.been.called;
-    TestUtils.Simulate.click(btn[0]);
-    _spies.dispatch.should.have.been.called;
   });
 });
