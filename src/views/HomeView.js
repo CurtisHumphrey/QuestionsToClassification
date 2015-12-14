@@ -4,7 +4,7 @@ import { connect }            from 'react-redux';
 import { question_Answered, Answer_Types }  from 'actions/questions';
 import AnsweredList           from 'components/AnsweredList';
 import QuestionAsker          from 'components/QuestionAsker';
-import CategoryResult          from 'components/CategoryResult';
+// import CategoryResult          from 'components/CategoryResult';
 import _ from 'lodash';
 
 // We define mapStateToProps and mapDispatchToProps where we'd normally use
@@ -44,7 +44,6 @@ export class HomeView extends React.Component {
         action: (topic) => props.actions.question_Answered(topic, key)
       };
     });
-    console.log(this.state.possibleAnswers);
   }
 
   renderAnsweredList () {
@@ -57,6 +56,7 @@ export class HomeView extends React.Component {
     });
   }
 
+  // <CategoryResult outcomes="this.props.outcomes" answers="this.props.answers" />
   render () {
     return (
       <div className='container text-center'>
@@ -66,7 +66,6 @@ export class HomeView extends React.Component {
             <QuestionAsker topic={this.props.topics[0]} possibleAnswers={this.state.possibleAnswers} />
           </div>
         </div>
-        <CategoryResult outcomes="this.props.outcomes" answers="this.props.answers" />
         <hr/>
         <div className="row">
           { this.renderAnsweredList() }

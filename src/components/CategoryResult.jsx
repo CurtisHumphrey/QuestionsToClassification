@@ -25,30 +25,30 @@ export default class CategoryResult extends Component {
     this.state = {};
   }
 
-  levelToRank(answer_type, levels) {
-    return _.findKey(levels, answer_type.toLowerCase());
+  static levelToRank(answer_type, levels) {
+    return _.indexOf(levels, answer_type.toLowerCase());
   }
 
-  computeAllowedCategory(topic, answer_type, levels) {
-    if (this.levelToRank(answer_type, levels) > this.levelToRank(topic.max, levels)) {
+  static computeAllowedCategory(topic, answer_type, levels) {
+    if (CategoryResult.levelToRank(answer_type, levels) > CategoryResult.levelToRank(topic.max, levels)) {
       return topic.max;
     } else {
       return answer_type;
     }
   }
 
-  computeCounts(props) {
+  static computeCounts(props) {
     const counts = {};
     _.forEach(props.answers, (list, answer_type) => {
       _.forEach(list, (topic) => {
-        const level = this.computeAllowedCategory(topic, answer_type, props.outcomes.levels);
+        const level = CategoryResult.computeAllowedCategory(topic, answer_type, props.outcomes.levels);
         counts[level] = (counts[level] ? counts[level] : 0) + 1;
       });
     });
     return counts;
   }
 
-  checkRequire(require_options, counts) {
+  static checkRequire(require_options, counts) {
     _.reduce(require_options, (r_result, options) => {
       return r_result || _.reduce(options, (o_result, min, key) => {
         return o_result && counts[key.toLowerCase()] >= min;
@@ -56,20 +56,20 @@ export default class CategoryResult extends Component {
     }, false);
   }
 
-  computeRequires(props, counts) {
+  static computeRequires(props, counts) {
     const categories = {};
     _.forEach(props.outcomes.categories, (value, category) => {
-      categories[category] = this.checkRequire(value.require_options, counts);
+      categories[category] = CategoryResult.checkRequire(value.require_options, counts);
     });
     return categories;
   }
 
-  computeCategory(props) {
+  static computeCategory(props) {
     // count answer types
-    const counts = this.computeCounts(props);
+    const counts = CategoryResult.computeCounts(props);
 
     // check requires
-    const categoriesStates = this.computeRequires(props, counts);
+    const categoriesStates = CategoryResult.computeRequires(props, counts);
 
     // check level
     for (let i = props.outcomes.levels.length - 1; i >= 0; i -= 1) {

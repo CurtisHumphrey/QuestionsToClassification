@@ -4,16 +4,72 @@
 		"selected_items":
 		[
 			[
+				"lev",
+				"levels"
+			],
+			[
+				"Ca",
+				"CategoryResult"
+			],
+			[
+				"pro",
+				"proficient"
+			],
+			[
+				"des",
+				"describe"
+			],
+			[
+				"com",
+				"computeCategory"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"ca",
+				"categoriesStates"
+			],
+			[
+				"cate",
+				"category〔variable〕"
+			],
+			[
+				"requ",
+				"requires"
+			],
+			[
+				"comp",
+				"computeAllowedCategory"
+			],
+			[
+				"leve",
+				"levelToRank"
+			],
+			[
+				"ans",
+				"answer_type"
+			],
+			[
+				"p",
+				"possibleAnswers"
+			],
+			[
+				"quest",
+				"question_Answered"
+			],
+			[
+				"Pro",
+				"PropTypes"
+			],
+			[
 				"toL",
 				"toLowerCase〔function〕"
 			],
 			[
 				"ini",
 				"initial_state"
-			],
-			[
-				"des",
-				"desired_result"
 			],
 			[
 				"QUES",
@@ -272,10 +328,6 @@
 				"log_hash  (function)"
 			],
 			[
-				"p",
-				"previous_step_ids  (variable)"
-			],
-			[
 				"sendin",
 				"sending_timeout"
 			],
@@ -320,27 +372,27 @@
 	"buffers":
 	[
 		{
-			"file": "tests/actions/questions.spec.js",
+			"file": "src/views/HomeView.js",
 			"settings":
 			{
-				"buffer_size": 529,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tests/views/HomeView.spec.js",
-			"settings":
-			{
-				"buffer_size": 2576,
+				"buffer_size": 2610,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/QuestionAsker.jsx",
+			"file": "src/containers/Root.js",
 			"settings":
 			{
-				"buffer_size": 1093,
-				"line_ending": "Windows"
+				"buffer_size": 1369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/containers/DevTools.js",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -352,10 +404,34 @@
 			}
 		},
 		{
-			"file": "src/views/HomeView.js",
+			"file": "src/components/CategoryResult.jsx",
 			"settings":
 			{
-				"buffer_size": 2148,
+				"buffer_size": 2775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/data/questions.coffee",
+			"settings":
+			{
+				"buffer_size": 1825,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/components/CategoryResult.spec.js",
+			"settings":
+			{
+				"buffer_size": 3133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/components/AnsweredList.spec.js",
+			"settings":
+			{
+				"buffer_size": 1722,
 				"line_ending": "Unix"
 			}
 		},
@@ -372,22 +448,6 @@
 			"settings":
 			{
 				"buffer_size": 327,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/data/questions.coffee",
-			"settings":
-			{
-				"buffer_size": 1735,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tests/components/QuestionAsker.spec.js",
-			"settings":
-			{
-				"buffer_size": 1460,
 				"line_ending": "Unix"
 			}
 		},
@@ -717,10 +777,12 @@
 	],
 	"file_history":
 	[
+		"/C/code/questions/tests/actions/questions.spec.js",
+		"/C/code/questions/tests/views/HomeView.spec.js",
+		"/C/code/questions/src/components/AnsweredList.jsx",
 		"/C/code/questions/tests/helpers.js",
 		"/C/code/questions/build/webpack/_base.js",
 		"/C/code/questions/tests/reducers/questions.spec.js",
-		"/C/code/questions/src/components/AnsweredList.jsx",
 		"/C/code/questions/tests/components/ChartjsPolarArea.spec.js",
 		"/C/code/questions/src/components/ChartjsPolarArea.jsx",
 		"/C/code/questions/build/karma.js",
@@ -842,13 +904,11 @@
 		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_temperature.html",
 		"/C/Dropbox/TedChef_dev/webapp/app/views/recipe/pickers/body_time.html",
 		"/C/Dropbox/TedChef_dev/webapp/app/modules/recipe/logic/recipe_list_calcs.coffee",
-		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/ingredients.html",
-		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/images.html",
-		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/add_config.json.coffee"
+		"/C/Dropbox/TedChef_dev/webapp/app/pages/admin/add/extras_html/ingredients.html"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -879,6 +939,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\"",
+			"xit",
+			"parts",
+			"consts",
+			"QuestionAsker",
+			"possible_answers",
+			"type",
+			"category",
 			"AnsweredList",
 			"topic",
 			"AnsweredList",
@@ -998,15 +1066,7 @@
 			"image",
 			"element",
 			"model: $data",
-			"e",
-			"color_highlight_second",
-			"part",
-			"row",
-			"image_src",
-			"URL_BASE",
-			"image",
-			"template: { name: 'recipe/element', ",
-			"image_src"
+			"e"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1031,24 +1091,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tests/actions/questions.spec.js",
+					"file": "src/views/HomeView.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 529,
+						"buffer_size": 2610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								1235,
+								1235
 							]
 						],
 						"settings":
@@ -1063,13 +1123,50 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/containers/Root.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								946,
+								946
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
 								},
 								{
 									"characters": ".#",
 									"selector": "text.html"
 								}
 							],
-							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1082,62 +1179,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "tests/views/HomeView.spec.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1152,
-								1152
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".@",
-									"selector": "source.coffee, source.litcoffee, source.coffee.md"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 405.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "src/components/QuestionAsker.jsx",
+					"file": "src/containers/DevTools.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1093,
+						"buffer_size": 360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								320,
+								320
 							]
 						],
 						"settings":
@@ -1154,15 +1209,13 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1203,28 +1256,22 @@
 					},
 					"stack_index": 3,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 4,
-					"file": "src/views/HomeView.js",
+					"file": "src/components/CategoryResult.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2148,
+						"buffer_size": 2775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1235,
-								1235
+								1369,
+								1369
 							]
 						],
 						"settings":
@@ -1246,7 +1293,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1254,100 +1301,19 @@
 				},
 				{
 					"buffer": 5,
-					"file": "src/reducers/questions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1176,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								409,
-								417
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".@",
-									"selector": "source.coffee, source.litcoffee, source.coffee.md"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/actions/questions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 327,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								188,
-								188
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".@",
-									"selector": "source.coffee, source.litcoffee, source.coffee.md"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "src/data/questions.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 1825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								158
+								90,
+								42
 							]
 						],
 						"settings":
@@ -1371,24 +1337,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 8,
-					"file": "tests/components/QuestionAsker.spec.js",
+					"buffer": 6,
+					"file": "tests/components/CategoryResult.spec.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1460,
+						"buffer_size": 3133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1455,
-								1455
+								1698,
+								1698
 							]
 						],
 						"settings":
@@ -1409,15 +1381,138 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 90.0,
+						"translation.x": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tests/components/AnsweredList.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/reducers/questions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+					"file": "src/actions/questions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".@",
+									"selector": "source.coffee, source.litcoffee, source.coffee.md"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "src/reducers/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1453,7 +1548,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1487,7 +1582,7 @@
 		"cols":
 		[
 			0.0,
-			0.550535077289,
+			0.563614744352,
 			1.0
 		],
 		"rows":
@@ -1530,6 +1625,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"anser",
+				"tests\\components\\AnsweredList.spec.js"
+			],
+			[
+				"an",
+				"src\\components\\AnsweredList.jsx"
+			],
 			[
 				"answer",
 				"tests\\components\\AnsweredList.spec.js"
@@ -2033,14 +2136,6 @@
 			[
 				"confi",
 				"html\\dev\\code\\require_config.coffee"
-			],
-			[
-				"",
-				"html\\dev\\modules\\recipe\\element\\element.less"
-			],
-			[
-				"tools",
-				"html\\dev\\code\\helpers\\tedchef_tools.coffee"
 			]
 		],
 		"width": 0.0
@@ -2067,7 +2162,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

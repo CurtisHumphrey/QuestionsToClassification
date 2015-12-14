@@ -5,7 +5,7 @@ import CategoryResult         from 'components/CategoryResult';
 import { Answer_Types }       from 'actions/questions';
 import _ from 'lodash';
 
-xdescribe('CategoryResult Component', function() {
+describe.only('CategoryResult Component', function() {
   let rendered;
   let sandbox;
   let props;
@@ -34,21 +34,50 @@ xdescribe('CategoryResult Component', function() {
     sandbox.restore();
   });
 
-  it('Should include a class="question" element with matching text', function() {
+  describe('sub functions', () => {
+    let levels;
+    beforeEach(function() {
+      levels = ['beginner', 'familiar', 'proficient', 'expert'];
+    });
+
+    it('levelToRank should return 2 for proficient', function() {
+      expect(CategoryResult.levelToRank('proficient', levels)).to.be.eql(2);
+    });
+
+    it('computeAllowCategory should return answer if below max', function() {
+      const topic = {
+        title: 'A title',
+        max: 'proficient'
+      };
+      expect(CategoryResult.computeAllowedCategory(topic, 'familiar', levels))
+        .to.be.eql('familiar');
+    });
+
+    it('computeAllowCategory should return max if above max', function() {
+      const topic = {
+        title: 'A title',
+        max: 'proficient'
+      };
+      expect(CategoryResult.computeAllowedCategory(topic, 'expert', levels))
+        .to.be.eql('proficient');
+    });
+  });
+
+  xit('Should include a class="question" element with matching text', function() {
     rendered = renderWithProps(CategoryResult, props);
 
     const node = TestUtils.findRenderedDOMComponentWithClass(rendered, 'question');
     expect(node.textContent).to.contain(props.topic.text);
   });
 
-  it('Should have an li element for each answer type', function() {
+  xit('Should have an li element for each answer type', function() {
     rendered = renderWithProps(CategoryResult, props);
 
     const nodes = TestUtils.scryRenderedDOMComponentsWithClass(rendered, 'answer');
     expect(nodes.length).to.eql(_.size(Answer_Types));
   });
 
-  it('Should call the correct action when the answer is clicked', function() {
+  xit('Should call the correct action when the answer is clicked', function() {
     rendered = renderWithProps(CategoryResult, props);
     const nodes = TestUtils.scryRenderedDOMComponentsWithClass(rendered, 'answer');
 
@@ -63,7 +92,7 @@ xdescribe('CategoryResult Component', function() {
     props.possibleAnswers.slice(1).forEach(not_Called);
   });
 
-  it('should call with the topic passed as an argument', function() {
+  xit('should call with the topic passed as an argument', function() {
     rendered = renderWithProps(CategoryResult, props);
     const nodes = TestUtils.scryRenderedDOMComponentsWithClass(rendered, 'answer');
 
