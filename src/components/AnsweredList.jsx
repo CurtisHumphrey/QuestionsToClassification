@@ -33,7 +33,7 @@ export default class AnsweredList extends Component {
 
     return (
       <div>
-        <div className="title h3">{this.props.title}</div>
+        <div className="title h4">{this.props.title}</div>
         <ul className="list-group">
           {listNode}
         </ul>

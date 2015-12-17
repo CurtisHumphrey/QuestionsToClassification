@@ -28,6 +28,7 @@ Object.assign(INITIAL_STATE, DATA);
 function add_Answers(state, action) {
   const next_state = Object.assign({}, state);
   const type = action.answer;
+  next_state.answers = Object.assign({}, next_state.answers);
   next_state.answers[type] = [
     ...next_state.answers[type],
     action.topic

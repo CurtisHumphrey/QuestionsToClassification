@@ -4,7 +4,7 @@ import { connect }            from 'react-redux';
 import { question_Answered, Answer_Types }  from 'actions/questions';
 import AnsweredList           from 'components/AnsweredList';
 import QuestionAsker          from 'components/QuestionAsker';
-// import CategoryResult          from 'components/CategoryResult';
+import CategoryResult          from 'components/CategoryResult';
 import _ from 'lodash';
 
 // We define mapStateToProps and mapDispatchToProps where we'd normally use
@@ -33,8 +33,10 @@ export class HomeView extends React.Component {
   static propTypes = {
     actions  : React.PropTypes.object,
     topics   : React.PropTypes.array,
-    answers  : React.PropTypes.object
-  }
+    answers  : React.PropTypes.object,
+    outcomes : React.PropTypes.objects
+  };
+
   constructor (props) {
     super();
     this.state = {};
@@ -49,25 +51,31 @@ export class HomeView extends React.Component {
   renderAnsweredList () {
     return _.map(Answer_Types, category => {
       return (
-        <div className="col-md-3">
-          <AnsweredList title={toTitleCase(category)} key="category" list={this.props.answers[category]} />
+        <div className='col-md-3'>
+          <AnsweredList title={toTitleCase(category)} key={category} list={this.props.answers[category]} />
         </div>
       );
     });
   }
 
-  // <CategoryResult outcomes="this.props.outcomes" answers="this.props.answers" />
   render () {
+    console.log(this.props);
     return (
       <div className='container text-center'>
         <h1>Welcome to the Question to Category!</h1>
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3">
+        <div className='row'>
+          <div className='col-md-6 col-md-offset-3'>
             <QuestionAsker topic={this.props.topics[0]} possibleAnswers={this.state.possibleAnswers} />
           </div>
         </div>
         <hr/>
-        <div className="row">
+        <CategoryResult outcomes={this.props.outcomes} answers={this.props.answers} />
+        <hr/>
+        <h3> Your topic answers </h3>
+        <p>Please note just because one rates themselves as 'expert' on a skill topic does not make them an expert of
+        the overall subject. Example: Being an expert at breathing does not make one a expert of public speaking even
+        though public speaking require breathing.</p>
+        <div className='row'>
           { this.renderAnsweredList() }
         </div>
       </div>

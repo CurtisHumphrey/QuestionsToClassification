@@ -71,4 +71,12 @@ describe('QuestionAsker Component', function() {
 
     expect(props.possibleAnswers[0].action.calledWith(props.topic)).to.be.true;
   });
+
+  it('should not render any answer if there are no more questions', function() {
+    props.topic = {};
+    rendered = renderWithProps(QuestionAsker, props);
+
+    const nodes = TestUtils.scryRenderedDOMComponentsWithClass(rendered, 'answer');
+    expect(nodes.length).to.eql(0);
+  });
 });

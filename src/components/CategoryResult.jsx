@@ -11,7 +11,7 @@ export default class CategoryResult extends Component {
   };
   static propTypes = {
     outcomes: PropTypes.shape({
-      levels: PropTypes.arrayOf(PropTypes.strings).isRequired,
+      levels: PropTypes.arrayOf(PropTypes.string).isRequired,
       categories: PropTypes.object
     }).isRequired,
     answers: PropTypes.object.isRequired
@@ -37,11 +37,11 @@ export default class CategoryResult extends Component {
     }
   }
 
-  static computeCounts(props) {
+  static computeCounts(answers, levels) {
     const counts = {};
-    _.forEach(props.answers, (list, answer_type) => {
+    _.forEach(answers, (list, answer_type) => {
       _.forEach(list, (topic) => {
-        const level = CategoryResult.computeAllowedCategory(topic, answer_type, props.outcomes.levels);
+        const level = CategoryResult.computeAllowedCategory(topic, answer_type, levels).toLowerCase();
         counts[level] = (counts[level] ? counts[level] : 0) + 1;
       });
     });
@@ -49,16 +49,20 @@ export default class CategoryResult extends Component {
   }
 
   static checkRequire(require_options, counts) {
-    _.reduce(require_options, (r_result, options) => {
+    return _.reduce(require_options, (r_result, options) => {
       return r_result || _.reduce(options, (o_result, min, key) => {
-        return o_result && counts[key.toLowerCase()] >= min;
+        let value = counts[key.toLowerCase()];
+        if (value === undefined) {
+          value = 0; // count is always at least 0
+        }
+        return o_result && value >= min;
       }, true);
     }, false);
   }
 
-  static computeRequires(props, counts) {
+  static computeRequires(outcomes_categories, counts) {
     const categories = {};
-    _.forEach(props.outcomes.categories, (value, category) => {
+    _.forEach(outcomes_categories, (value, category) => {
       categories[category] = CategoryResult.checkRequire(value.require_options, counts);
     });
     return categories;
@@ -66,10 +70,13 @@ export default class CategoryResult extends Component {
 
   static computeCategory(props) {
     // count answer types
-    const counts = CategoryResult.computeCounts(props);
+    const counts = CategoryResult.computeCounts(props.answers, props.outcomes.levels);
+    console.log(counts);
 
     // check requires
-    const categoriesStates = CategoryResult.computeRequires(props, counts);
+    const categoriesStates = CategoryResult.computeRequires(props.outcomes.categories, counts);
+
+    console.log(categoriesStates);
 
     // check level
     for (let i = props.outcomes.levels.length - 1; i >= 0; i -= 1) {
@@ -83,18 +90,18 @@ export default class CategoryResult extends Component {
   }
 
   render() {
-    const my_category = this.computeCategory(this.props);
-    if(my_category === null) {
+    const my_category = CategoryResult.computeCategory(this.props);
+    if (my_category === null) {
       return (
-        <div>Unknown Category</div>
+        <div className='title unknown'>Unknown Category</div>
       );
     } else {
       return (
         <div>
-          <div className="title">{my_category.title}</div>
-          <div className="message">{my_category.text}</div>
+          <div className='title h2'>{my_category.title}</div>
+          <div className='message'>{my_category.text}</div>
         </div>
-      )
+      );
     }
   }
 }

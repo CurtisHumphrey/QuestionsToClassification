@@ -11,7 +11,7 @@ export default class QuestionAsker extends Component {
   };
   static propTypes = {
     topic: PropTypes.shape( {
-      text: PropTypes.string.isRequired
+      text: PropTypes.string
     }),
     possibleAnswers: PropTypes.arrayOf(PropTypes.shape({
       text: PropTypes.string.isRequired,
@@ -28,17 +28,13 @@ export default class QuestionAsker extends Component {
     this.state = {};
   }
 
-  handleClick(answer) {
-    answer.action(this.props.topic);
-  }
-
   renderAnswers () {
     const topic = this.props.topic;
     return _.map(this.props.possibleAnswers, answer => {
       const text = answer.text.toLowerCase();
       const click = () => answer.action(topic);
       return (
-        <li className="answer btn-block btn-lg btn btn-default" key={text} onClick={click} >{text}</li>
+        <button className="answer btn-block btn-lg btn btn-default" key={text} onClick={click} >{text}</button>
       );
     });
   }

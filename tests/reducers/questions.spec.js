@@ -32,8 +32,11 @@ describe('reducers of questions', function() {
     desired_result = [topic, topic];
 
     state = reducer(undefined, action.question_Answered(topic, PROFICIENT));
-    state = reducer(state, action.question_Answered(topic, PROFICIENT));
-    expect(state.answers[PROFICIENT]).to.eql(desired_result);
+    const old_state = JSON.parse(JSON.stringify(state));
+    const next_state = reducer(state, action.question_Answered(topic, PROFICIENT));
+    expect(next_state.answers[PROFICIENT]).to.eql(desired_result);
+    //Check for no change
+    expect(state).to.be.eql(old_state);
   });
 
   it('should remove the first question on the topic list', function() {
