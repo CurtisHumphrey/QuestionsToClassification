@@ -23,6 +23,7 @@ if (process.env.COVERALLS_REPO_TOKEN) {
   console.log('coveralls found');
   coverage_reporters.push( { type : 'lcov', dir : 'coverage' } );
 } else {
+  console.log('coveralls NOT found');
   coverage_reporters.push( { type : 'html', dir : 'coverage', 'subdir' : '.' } );
 }
 config.set('coverage_reporters', coverage_reporters);
