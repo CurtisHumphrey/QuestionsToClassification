@@ -71,12 +71,9 @@ export default class CategoryResult extends Component {
   static computeCategory(props) {
     // count answer types
     const counts = CategoryResult.computeCounts(props.answers, props.outcomes.levels);
-    console.log(counts);
 
     // check requires
     const categoriesStates = CategoryResult.computeRequires(props.outcomes.categories, counts);
-
-    console.log(categoriesStates);
 
     // check level
     for (let i = props.outcomes.levels.length - 1; i >= 0; i -= 1) {
@@ -97,9 +94,9 @@ export default class CategoryResult extends Component {
       );
     } else {
       return (
-        <div>
-          <div className='title h2'>{my_category.title}</div>
-          <div className='message'>{my_category.text}</div>
+        <div className='result'>
+          <div className='title h2'>Data Scientist Level: <b>{my_category.title}</b></div>
+          <div className='message h4'>{my_category.text}</div>
         </div>
       );
     }

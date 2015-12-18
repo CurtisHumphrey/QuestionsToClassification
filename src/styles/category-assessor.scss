@@ -1,0 +1,64 @@
+$color-dark: #18478F;
+$color-highlight: rgb(56, 220, 86);
+$color-off: rgb(247, 248, 250);
+$color-off-darker: rgb(238, 238, 238);
+
+body {
+  background-color: $color-off-darker;
+}
+.main-body {
+  background-color: $color-off;
+  padding-bottom: 60px;
+}
+
+.header-block {
+  background-color: $color-dark;
+  color: white;
+  padding-bottom: 30px;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  .subsection {
+    margin-bottom: 30px;
+  }
+}
+
+.instructions {
+  .btn-primary {
+    background-color: darken($color-highlight, 20%);
+    border: none;
+  }
+}
+
+.progress-block {
+  margin-top: 2em;
+}
+
+.answered-block {
+  .title {
+    margin-top: 2em;
+  }
+}
+
+.question {
+  margin-top: 30px;
+}
+.question-title {
+  margin-bottom: 0;
+}
+.question-topic {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.result {
+  .title {
+    font-weight: normal;
+  }
+}
+
+.note-block {
+  margin-top: 30px;
+}

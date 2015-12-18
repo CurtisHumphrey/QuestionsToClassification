@@ -15,10 +15,10 @@ config.set('dir_src',  'src');
 config.set('dir_dist', 'dist');
 config.set('dir_test', 'tests');
 
-config.set('coverage_enabled', !argv.watch); // enabled if not in watch mode
+config.set('coverage_enabled', true); // enabled if not in watch mode
 config.set('coverage_reporters', [
   { type : 'text-summary' },
-  { type : 'html', dir : 'coverage' }
+  { type : 'html', dir : 'coverage', 'subdir' : '.' }
 ]);
 
 config.set('server_host',  'localhost');

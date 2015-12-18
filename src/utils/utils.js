@@ -18,6 +18,7 @@ export function createReducer (initialState, fnMap) {
   };
 }
 
+/* istanbul ignore next: written by starter kit */
 export function createDevToolsWindow (store) {
   const win = window.open(
     null,

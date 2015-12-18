@@ -34,22 +34,23 @@ export default class QuestionAsker extends Component {
       const text = answer.text.toLowerCase();
       const click = () => answer.action(topic);
       return (
-        <button className="answer btn-block btn-lg btn btn-default" key={text} onClick={click} >{text}</button>
+        <button className='answer btn-block btn-lg btn btn-default' key={text} onClick={click} >{text}</button>
       );
     });
   }
-
+  
   render() {
     if (this.props.topic.text) {
       return (
-        <div>
-          <div className="question h3">What level do you know this topic: <br/>{this.props.topic.text}?</div>
+        <div className='question'>
+          <div className='question-title h4'>What level do you know this topic:</div>
+          <div className='question-topic h3'>{this.props.topic.text}?</div>
           { this.renderAnswers() }
         </div>
       );
     } else {
       return (
-        <div className="question h3">No More Questions!</div>
+        <div className='question h3'>No More Questions!</div>
       );
     }
   }

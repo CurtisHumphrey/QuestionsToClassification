@@ -24,6 +24,7 @@ export default function configureStore (initialState, debug = false) {
   const store = createStoreWithMiddleware(createStore)(
     rootReducer, initialState
   );
+   /* istanbul ignore if */
   if (module.hot) {
     module.hot.accept('../reducers', () => {
       const nextRootReducer = require('../reducers/index');

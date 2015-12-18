@@ -4,13 +4,13 @@ module.exports =
     categories:
       beginner: 
         title: "Beginner"
-        text: "You're just starting to explore the skills of a data scientist"
+        text: "You're just starting to explore data scientist skills"
         require_options: [{
           familiar: 0
         }]
       familiar:
         title: "Familiar"
-        text: "You have basic knowledge of the skills of a data scientist, but plenty of room to learn more"
+        text: "You have basic data scientist skill knowledge, but plenty of room to learn more"
         require_options: [
           {
             proficient: 1
@@ -21,7 +21,7 @@ module.exports =
         ]
       proficient:
         title: "Proficient"
-        text: "You're comfortable using these skills of a data scientist in routine ways"
+        text: "You're comfortable using data scientist skills in routine ways"
         require_options: [
           {
             proficient: 1
@@ -33,7 +33,7 @@ module.exports =
         ]
       expert:
         title: "Expert"
-        text: "You're comfortable teaching others the skills of a data scientist"
+        text: "You're comfortable teaching others the data scientist skills"
         require_options: [
           {
             expert: 5
