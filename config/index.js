@@ -16,10 +16,16 @@ config.set('dir_dist', 'dist');
 config.set('dir_test', 'tests');
 
 config.set('coverage_enabled', true); // enabled if not in watch mode
-config.set('coverage_reporters', [
-  { type : 'text-summary' },
-  { type : 'html', dir : 'coverage', 'subdir' : '.' }
-]);
+const coverage_reporters = [
+  { type : 'text-summary' }
+];
+if (process.env.COVERALLS_REPO_TOKEN) {
+  console.log('coveralls found');
+  coverage_reporters.push( { type : 'lcov', dir : 'coverage' } );
+} else {
+  coverage_reporters.push( { type : 'html', dir : 'coverage', 'subdir' : '.' } );
+}
+config.set('coverage_reporters', coverage_reporters);
 
 config.set('server_host',  'localhost');
 config.set('server_port',  process.env.PORT || 3000);

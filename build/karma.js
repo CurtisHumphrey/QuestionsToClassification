@@ -39,6 +39,7 @@ function makeDefaultConfig () {
 
   if (config.get('coverage_enabled')) {
     karma.reporters.push('coverage');
+    karma.reporters.push('coveralls');
     karma.webpack.module.preLoaders = [{
       test    : /\.(js|jsx)$/,
       include : /src/,
