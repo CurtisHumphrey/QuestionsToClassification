@@ -55,7 +55,7 @@ export class HomeView extends React.Component {
   renderProgress () {
     let percentage = (1.0 - this.props.topics.length / this.state.total_topics) * 100;
     let title = 'Progress:';
-    
+
     if (percentage < 20 || percentage > 99) {
       return (
         <div className='row progress-block'>
@@ -151,7 +151,7 @@ export class HomeView extends React.Component {
             <div className='row text-left'>
               <div className='col-md-1 col-md-offset-3 h4'>Demo:</div>
               <div className='col-md-5'>
-                Goal is to discover your Data Scientist skill level by asking you question 
+                Goal is to discover your Data Scientist skill level by asking you question
                 which are quick for you to answer.
               </div>
             </div>
